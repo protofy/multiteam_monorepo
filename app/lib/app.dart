@@ -2,13 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:navigation/navigation.dart';
 
 class App extends StatelessWidget {
-  const App({super.key});
+  late final appRouter = AppRouter();
+
+  App({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
-      home: FeatureAbcMixPage(),
+      routerDelegate: appRouter.delegate(),
+      routeInformationParser: appRouter.defaultRouteParser(),
     );
   }
 }

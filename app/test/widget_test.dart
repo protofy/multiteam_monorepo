@@ -3,7 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   testWidgets('test complete app', (WidgetTester tester) async {
-    await tester.pumpWidget(const App());
+    await tester.pumpWidget(App());
 
     expect(
       find.text(

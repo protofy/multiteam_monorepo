@@ -1,12 +1,13 @@
-import 'package:base/widgets/widget_demo_app.dart';
-import 'package:feature_c/feature_c.dart';
 import 'package:flutter/material.dart';
-import 'package:navigation/navigation.dart';
+import 'package:navigation/routes/app_router.gr.dart';
 
 void main() {
+  final appRouter = AppRouter();
+
   runApp(
-    const MaterialApp(
-      home: FeatureAbcMixPage(),
+    MaterialApp.router(
+      routerDelegate: appRouter.delegate(),
+      routeInformationParser: appRouter.defaultRouteParser(),
     ),
   );
 }

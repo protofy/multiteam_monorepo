@@ -1,3 +1,4 @@
 library feature_c;
 
-export 'package:feature_c/widgets/feature_c_button_column.dart';
+export 'widgets/feature_c_button_column.dart';
+export 'pages/feature_c_page.dart';
