@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/feature_c/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/feature_c/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/feature_c/build" />
+      <excludeFolder url="file://$MODULE_DIR$/app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/feature_b/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/feature_b/build" />
+      <excludeFolder url="file://$MODULE_DIR$/feature_b/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/base/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/base/build" />
+      <excludeFolder url="file://$MODULE_DIR$/base/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/feature_a/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/feature_a/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/feature_a/build" />
+      <excludeFolder url="file://$MODULE_DIR$/navigation/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/navigation/build" />
+      <excludeFolder url="file://$MODULE_DIR$/navigation/.dart_tool" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+  </component>
+</module>

@@ -1,0 +1,24 @@
+name: feature_c
+version: 0.0.1
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  base:
+    path: ../base
+  feature_a:
+    path: ../feature_a
+  feature_b:
+    path: ../feature_b
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
