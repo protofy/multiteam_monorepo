@@ -9,6 +9,7 @@ class FeatureAButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return StandardButton(
+      label: 'feat A',
       onPressed: () {
         log('you clicked a feature A button!');
       },

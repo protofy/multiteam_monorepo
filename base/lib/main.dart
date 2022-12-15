@@ -8,6 +8,7 @@ void main() {
   runApp(
     WidgetDemoApp(
       widget: StandardButton(
+        label: 'base',
         onPressed: () {
           log('hello world!');
         },

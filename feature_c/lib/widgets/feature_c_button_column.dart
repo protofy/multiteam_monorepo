@@ -16,6 +16,7 @@ class FeatureCButtonColumn extends StatelessWidget {
         const FeatureAButton(),
         const FeatureBButton(),
         StandardButton(
+          label: 'feat C',
           onPressed: () {
             log('you clicked a feature C button!');
           },
