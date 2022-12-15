@@ -1,3 +1,4 @@
+import 'package:base/base.dart';
 import 'package:flutter/material.dart';
 import 'package:navigation/routes/app_router.gr.dart';
 
@@ -6,6 +7,7 @@ void main() {
 
   runApp(
     MaterialApp.router(
+      theme: lightTheme,
       routerDelegate: appRouter.delegate(),
       routeInformationParser: appRouter.defaultRouteParser(),
     ),

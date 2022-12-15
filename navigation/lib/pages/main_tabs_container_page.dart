@@ -11,7 +11,7 @@ class MainTabsContainerPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return AutoTabsScaffold(
       routes: const [
-        FeatureARoute(),
+        FeatureAStackRoute(),
         FeatureBRoute(),
         FeatureCRoute(),
         FeatureAbcMixRoute(),

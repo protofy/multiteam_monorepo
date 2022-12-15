@@ -16,7 +16,7 @@ packages:
     source: hosted
     version: "5.0.4"
   base:
-    dependency: transitive
+    dependency: "direct main"
     description:
       path: "../base"
       relative: true

@@ -8,6 +8,8 @@ environment:
 
 dependencies:
   auto_route: ^5.0.4
+  base:
+    path: '../base'
   navigation:
     path: '../navigation'
   flutter:

@@ -1,3 +1,4 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:feature_a/feature_a.dart';
 import 'package:flutter/material.dart';
 
@@ -6,9 +7,20 @@ class FeatureAPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: Center(
-        child: FeatureAButton(),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const FeatureAButton(),
+            TextButton(
+              onPressed: () {
+                context.router.navigateNamed('/child');
+              },
+              child: const Text('button to child page'),
+            )
+          ],
+        ),
       ),
     );
   }

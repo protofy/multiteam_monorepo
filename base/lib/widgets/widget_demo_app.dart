@@ -1,3 +1,4 @@
+import 'package:base/themes/light_theme.dart';
 import 'package:flutter/material.dart';
 
 class WidgetDemoApp extends StatelessWidget {
@@ -8,6 +9,7 @@ class WidgetDemoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: lightTheme,
       home: Scaffold(
         body: Center(
           child: widget,

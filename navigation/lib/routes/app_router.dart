@@ -13,7 +13,7 @@ import 'package:navigation/pages/main_tabs_container_page.dart';
       initial: true,
       page: MainTabsContainerPage,
       children: [
-        MaterialRoute(page: FeatureAPage),
+        featureAStackRoute,
         MaterialRoute(page: FeatureBPage),
         MaterialRoute(page: FeatureCPage),
         MaterialRoute(page: FeatureAbcMixPage),
