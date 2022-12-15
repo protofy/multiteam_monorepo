@@ -3,6 +3,10 @@
 Example of a monorepo flutter development setup for multiple teams, being responsible for 
 folder `base`, `feature_a`, `feature_b`, `feature_c`, `navigation` each. Combining into a single app in `app`.
 
+## Prerequisites 
+
+- Setup [fvm](https://fvm.app/docs/getting_started/installation) and do a `fvm install` in project root, if you want to use the IntelliJ IDEA run configurations.
+
 ## Pros & Cons vs. Multi-Repository Setup
 
 Pros:
